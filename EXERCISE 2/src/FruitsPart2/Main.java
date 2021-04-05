@@ -13,6 +13,8 @@ public class Main {
 		Apple.CalPrice(2.5, 6.00);
 		Apple.StoreNutrients("Fibre", "VitaB", "VitaK");
 		Apple.PreventRiskDisease("Cancer", "Diabetes", "Asthma");
+		Apple.CalDensity(45,15);
+		Apple.CalWeight(5.0, 2);
 		System.out.println("________________________________");
 		
 		System.out.println("-BANANA CHARACTERISTICS-");
@@ -20,6 +22,8 @@ public class Main {
 		Banana.CalPrice(1.0, 8.60);
 		Banana.StoreNutrients("Fibre", "Potassium", "Magnesium");
 		Banana.PreventRiskDisease("Insulin Sensitivity", "Digestive Health", "Heart Health");
+		Banana.CalDensity(80.0,25.0);
+		Banana.CalWeight(1.2, 4);
 		System.out.println("________________________________");
 		
 		System.out.println("-GRAPE CHARACTERISTICS-");
@@ -27,6 +31,8 @@ public class Main {
 		Grape.CalPrice(0.5, 7.50);
 		Grape.StoreNutrients("Iron", "VitaA", "VitaK");
 		Grape.PreventRiskDisease("Heart Disease", "Cancer", "Diabetes");
+		Grape.CalDensity(1.0,40.0);
+		Grape.CalWeight(1.0, 3);
 		System.out.println("________________________________");
 		
 		System.out.println("-STRAWBERRY CHARACTERISTICS-");
@@ -34,6 +40,8 @@ public class Main {
 		Strawberry.CalPrice(5.0,28.00);
 		Strawberry.StoreNutrients("Calcium", "Magnesium", "VitaC");
 		Strawberry.PreventRiskDisease("Blood Pressure", "Stroke", "Cardiovascular Disease");
+		Strawberry.CalDensity(45.0,15.0);
+		Strawberry.CalWeight(3.5, 7);
 		System.out.println("________________________________");
 	}
 	

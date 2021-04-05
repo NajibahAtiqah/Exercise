@@ -24,4 +24,14 @@ public class Fruitss {
 	void PreventRiskDisease (String r, String s, String t) {
 		System.out.println("It is good for: " + r + ", " + s + " and " + t);
 	}
+	void CalDensity (double m, double v) {
+		double d = m/v;
+		System.out.println("The density of the fruit is: " + d + " g/cm^3");
 }
+	void CalWeight (double f, int g) {
+		double e = f*g;
+		System.out.println("Total weight : " + e + " KG");
+
+	}
+	}
+	
